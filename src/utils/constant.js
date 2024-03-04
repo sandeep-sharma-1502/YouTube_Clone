@@ -2,7 +2,7 @@
 export const gk="AIzaSyDhSQatQOX7PgS0ZNYmQ_tTzDS35bIMf-0"
 export const youtubeapi="https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key="+gk
 
-
+// AIzaSyAsA26wzjtgzsFwPhcYYuW98YpB-JR4OU8
 const nameList = [
     'Time', 'Past', 'Future', 'Dev',
     'Fly', 'Flying', 'Soar', 'Soaring', 'Power', 'Falling',

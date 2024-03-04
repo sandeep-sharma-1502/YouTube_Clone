@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const SideMenu = () => {
   return (
-    <div className='w-[72px] h-[1000px] ml-[4px] fixed' >
+    <div className='w-[72px] h-[1000px] ml-[4px] fixed bg-white z-10' >
         <div className='flex items-center flex-col mt-[4px]'>
             <Link to={"/"}>
             <div className='w-[64px] h-[44px]  mt-[16px] mb-[14px] flex items-center flex-col'>

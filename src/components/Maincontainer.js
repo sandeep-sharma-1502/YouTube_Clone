@@ -22,9 +22,9 @@ const Maincontainer = () => {
         setyoutube(json.items)
         
     }
+console.log(youtube)
 
-
-  return (youtube.length==0)?console.log("sandeep"): (
+  return ((youtube.length==0) ||(youtube==undefined))?console.log("sandeep"): (
     <div className='px-[16px] pt-[24px] flex flex-wrap'>
         {youtube.map((e)=>(
           <Link to={"/watch?v="+e.id}>

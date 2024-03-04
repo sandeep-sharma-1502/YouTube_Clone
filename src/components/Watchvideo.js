@@ -26,15 +26,6 @@ const Watchvideo = () => {
         setcomment(json.items)
     }
 
-  
-  nes.push({
-    name:"sandeep",
-    masage:"this is sandeep"
-  })
-  console.log(nes)
-
-    // .snippet.topLevelComment.snippet.authorDisplayName
-
   useEffect(()=>{
     dispatch(setMenu())
 
@@ -60,9 +51,8 @@ const Watchvideo = () => {
       </iframe>
         <LiveChat/>
       </div>
-      <div>
-          {nes.map((e)=><span>{e.masage}</span>)}
-
+      <div className='mt-[30px]'>
+          <span className='w-[50px h-[50px] ml-10 font-bold rounded-full text-lg'>COMMENTS</span>
           {comment.map((e)=><Comment2 key={e.id} comment={e}/>)}
       </div>
     </div>

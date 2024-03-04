@@ -14,7 +14,7 @@ const VideoCart = ({info}) => {
             <div>
                 <h1 className='font-medium text-[16px] truncate'>{info.snippet.title}</h1>
                 <h1>{info?.snippet?.channelTitle}</h1>
-                <h1>{info?.statistics?.viewCount}</h1>
+                <h1>{info?.statistics?.viewCount} Views</h1>
             </div>
         </div>
     </div>
