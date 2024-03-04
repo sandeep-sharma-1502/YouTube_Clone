@@ -1,7 +1,6 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
 import { setMenu } from '../utils/menuSlice'
-
 import { Link } from 'react-router-dom'
 
 const Logo = () => {
@@ -10,6 +9,7 @@ const Logo = () => {
     dispatch(setMenu())
   }
 
+
   return (
     <div className='w-[169px] flex'>
         <div onClick={()=>handle()} className=' hover:bg-gray-200 rounded-full w-[40px] h-[40px] flex justify-center items-center cursor-pointer'>
@@ -17,7 +17,7 @@ const Logo = () => {
         </div>
 
         <div className='w-[120px] flex items-center justify-center cursor-pointer mx-[1px]'>
-        <a href="/">
+          <a href='/'>
         <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 90 20" focusable="false" className="pointer-events: none; display: block; width: 100%; height: 100%; w-[90px h-[20px]">
         <svg viewBox="0 0 90 20" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
             <g>

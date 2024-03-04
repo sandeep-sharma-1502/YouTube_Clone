@@ -1,5 +1,5 @@
 
-const gk="AIzaSyBklI8zgInVT13NuVUTStjVXHFN9WLCgQQ"
+export const gk="AIzaSyDhSQatQOX7PgS0ZNYmQ_tTzDS35bIMf-0"
 export const youtubeapi="https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key="+gk
 
 
